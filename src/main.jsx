@@ -6,13 +6,16 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Home from './pages/Home.jsx';
+import Dashboard from './pages/Dashboard.jsx';
+import Employee from './pages/Employee.jsx';
 
 const router = createBrowserRouter([
   {
     path:'/',
-    element:<Home></Home>
-  }
+    element:<Dashboard></Dashboard>
+  },
+  {path:'/employee',
+element:<Employee></Employee>}
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
