@@ -6,7 +6,7 @@ import { CgProfile } from "react-icons/cg";
 import { AiOutlineLogout } from "react-icons/ai";
 const Sidebar = () => {
         return (
-                <div className='bg-slate-800 shadow-2xl flex flex-col h-[100vh] w-48'>
+                <div className=' rounded-xl p-4 bg-slate-800 border-white shadow-2xl flex flex-col h-[100vh] w-48'>
                         <Link className="flex mt-4 items-center hover:bg-slate-900" to={'/'}>
                         <MdDashboard />Dashboard
                         </Link>

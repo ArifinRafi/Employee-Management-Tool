@@ -1,16 +1,14 @@
 import React from 'react';
 import Sidebar from '../components/Sidebar';
+import Card from '../components/Card';
 
 const Home = () => {
         return (
-                <div className='grid grid-col-3'>
-                        <div className='col-span-1/3'>
+                <div className='flex'>
                         <Sidebar></Sidebar>
+                        <div>
+                                <Card name={'Admin'}></Card>
                         </div>
-                        <div className='col-span-2'>
-                                hello
-                        </div>
-                        
                 </div>
         );
 };
