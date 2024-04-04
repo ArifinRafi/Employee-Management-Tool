@@ -6,8 +6,11 @@ const Home = () => {
         return (
                 <div className='flex'>
                         <Sidebar></Sidebar>
-                        <div>
+                        <div className='flex justify-center ml-48 mt-8 gap-12'>
                                 <Card name={'Admin'}></Card>
+                                <Card name={'Total Emplpoyee'}></Card>
+                                <Card name={'Total Salary'}></Card>
+                                
                         </div>
                 </div>
         );
