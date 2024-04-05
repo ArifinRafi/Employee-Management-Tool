@@ -4,9 +4,9 @@ import Card from '../components/Card';
 
 const Home = () => {
   return (
-    <div className='flex'>
+    <div className='grid grid-cols-8'>
       <Sidebar />
-      <div className='flex flex-col  ml-48 mt-8 gap-12'>
+      <div className='flex flex-col col-span-7  mt-8 gap-12'>
         <div className='flex justify-center gap-12'>
           <Card name={'Admin'} quantity={'1'} />
           <Card name={'Total Employee'} quantity={'12'} />
