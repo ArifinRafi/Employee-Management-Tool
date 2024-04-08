@@ -9,6 +9,8 @@ import {
 import Dashboard from './pages/Dashboard.jsx';
 import Employee from './pages/Employee.jsx';
 import AddEmployee from './pages/AddEmployee.jsx';
+import Category from './pages/Category.jsx';
+import Login from './pages/Login.jsx';
 
 const router = createBrowserRouter([
   {
@@ -18,7 +20,15 @@ const router = createBrowserRouter([
   {path:'/employee',
 element:<Employee></Employee>},
 {path:'/addemployee',
-element:<AddEmployee></AddEmployee>}
+element:<AddEmployee></AddEmployee>},
+{
+  path:'/category',
+  element:<Category></Category>
+},
+{
+  path:'/login',
+  element:<Login></Login>
+}
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(

@@ -16,7 +16,7 @@ const Sidebar = () => {
                         </Link>
 
 
-                        <Link className="flex mt-4 items-center hover:bg-slate-900" to={'/'}>
+                        <Link className="flex mt-4 items-center hover:bg-slate-900" to={'/category'}>
                         <BiSolidCategory /> Category
                         </Link>
 
